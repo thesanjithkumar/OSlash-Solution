@@ -50,8 +50,8 @@ def main():
             if amount >= 3000:
                 dis = dis + (amount/20)
                 amount = amount - (amount/20)
-            print(f"TOTAL_DISCOUNT {dis}")
-            print(f"TOTAL_AMOUNT_TO_PAY {(amount)+((amount)/10)}")
+            print("TOTAL_DISCOUNT {:.2f}".format(dis))
+            print("TOTAL_AMOUNT_TO_PAY {:.2f}".format((amount)+((amount)/10)))
 
 
 if __name__ == "__main__":
